@@ -1,10 +1,21 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+
 }
+
+p {
+  margin: 0;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
 #header-section {
   background-color: #1f2937;
   padding: 12px;
-  padding: 15px 160px 100px 160px;
+  padding: 15px 160px 40px 160px;
 }
 
 #main-header {
@@ -14,7 +25,7 @@ body {
 }
 
 #logo {
-  height: 100px;
+  height: 80px;
   width: auto;
   border-radius: 50%;
 }
@@ -33,12 +44,11 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
-
 }
 
 a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   color: #e5e7eb;
 }
 
@@ -62,18 +72,73 @@ h1 {
 #cape-squirrel {
   height: 200px;
   width: auto;
+  border-radius: 6px;
 }
 
 button {
   padding: 6px 36px;
-  border-radius: 6px;
+  border-radius: 10px;
   background-color: #3882f6;
   color: white;
   border: 0;
-  width: 169px;
+  width: 184px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 12px;
 }
 
 button:hover {
   background-color: #2462c5;
+  cursor: pointer;
 }
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+#card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 192px;
+}
+
+.card-image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+}
+
+#quote-section {
+  background-color: #e5e7eb;
+  padding: 70px 180px;
+}
+
+#quote {
+ 
+}
+
+#clever-quote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+#nutkins {
+  font-weight: bold;
+  text-align: end;
+}
+
 
